@@ -1,0 +1,100 @@
+body {
+	background-color: white;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+}
+
+.navbar-default .navbar-brand {
+	color: black;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+
+
+#nav-list {
+  margin-top: .5px;
+  margin-bottom: .5px;
+
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  background: white;
+}
+#nav-list a:hover {
+  background: #F2F2F2;
+}
+#nav-list a {
+  font-size: 1.5em;
+}
+ 
+
+li{
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+#our-menu {
+	text-align: center;
+}
+
+#chicken {
+	text-align: center;
+	color: black;
+	background: grey;
+	margin-top: 20px;
+	padding: 0px 30px 20px 30px;
+}
+
+#beef {
+	text-align: center;	
+	color: black;
+	background: grey;
+	margin-top: 20px;
+	padding: 0px 30px 20px 30px;
+}
+
+#sushi {
+	text-align: center;
+	color: black;
+	background: grey;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0px 30px 20px 30px;
+}
+
+p {
+	text-align: left;
+	font-size: 1.2em;
+	color: black;
+}
+
+@media (max-width: 767px) {
+	#chicken, #beef, #sushi {
+		border-left: 50px;
+		border-right: 50px;
+		border-style: solid;
+		border-color: white;
+	}
+}
+
+
+
